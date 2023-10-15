@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(55, 62, 62);
+}
+
+p {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
